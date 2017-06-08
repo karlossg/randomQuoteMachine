@@ -6,17 +6,21 @@
     margin: 5%; 
 }
 
-#hover {
+#newQuote {
     margin-right: 2%;
     margin-top: 1%;
 }
 
-#hover:hover { 
+#newQuote:hover { 
     cursor: pointer; 
 }
 
 #tweetQuote {
     margin-top: 1%;
+}
+
+#tweetQuote:hover {
+    cursor: pointer; 
 }
 
 footer {
