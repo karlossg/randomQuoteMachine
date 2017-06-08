@@ -3,7 +3,7 @@
     font-size: xx-large;
     width: 80%;
     padding: 5%;
-    margin: 5%; 
+    margin: 5%;
 }
 
 #newQuote {
@@ -11,8 +11,8 @@
     margin-top: 1%;
 }
 
-#newQuote:hover { 
-    cursor: pointer; 
+#newQuote:hover {
+    cursor: pointer;
 }
 
 #tweetQuote {
@@ -20,11 +20,11 @@
 }
 
 #tweetQuote:hover {
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 footer {
     font-family: 'Nothing You Could Do', Tahoma, Geneva, Verdana, sans-serif;
     padding: 5%;
-    margin: 5%; 
+    margin: 5%;
 }
