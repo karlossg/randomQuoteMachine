@@ -2,7 +2,7 @@ var quote = '';
 var author = '';
 
 function getRandomQuote() {
-  fetch('https://cors-anywhere.herokuapp.com/http://quotes.stormconsultancy.co.uk/random.json').then(function(response) {  
+  fetch('https://crossorigin.me/http://quotes.stormconsultancy.co.uk/random.json').then(function(response) {  
     if (response.status !== 200) {  
       console.log('There was a problemm with response. Status Code: ' + response.status);  
       return;  
