@@ -26,10 +26,7 @@ document.getElementById("tweetQuote").addEventListener("click", function () {
   var fullQuote = '"' + quote + '"' + ' - ' + author;
   if (fullQuote.length < 141) {
     this.setAttribute("onclick", window.open('https://twitter.com/intent/tweet?text=' + fullQuote, 'popup', 'width=450,height=250,left=500,top=250'));
-    // this.setAttribute("onclick", window.moveTo(500, 100));
-
   } else {
     this.setAttribute("onclick", window.open('https://twitter.com/intent/tweet?text=' + "Quote too long to tweet! Try another one!", 'popup', 'width=450,height=250,left=500,top=250'));
-    // this.setAttribute("href", 'https://twitter.com/intent/tweet?text=' + "Quote too long to tweet! Try another one!" );
   }
 });
