@@ -2,7 +2,7 @@ var quote = '';
 var author = '';
 
 function getRandomQuote() {
-  fetch('http://cors-proxy.htmldriven.com/?url=http://quotes.stormconsultancy.co.uk/random.json').then(function (response) {
+  fetch('https://talaikis.com/api/quotes/random/').then(function (response) {
     if (response.status !== 200) {
       console.log('There was a problemm with response. Status Code: ' + response.status);
       return;
