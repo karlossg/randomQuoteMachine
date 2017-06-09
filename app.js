@@ -23,7 +23,7 @@ function getRandomQuote() {
 getRandomQuote();
 
 document.getElementById("tweetQuote").addEventListener("click", function () {
-  var fullQuote = '"' + quote + '"' + ' - ' + author;
+  var fullQuote = '"' + quote.replace(';',',') + '"' + ' - ' + author;
   if (fullQuote.length < 141) {
     this.setAttribute("onclick", window.open('https://twitter.com/intent/tweet?text=' + fullQuote, 'popup', 'width=450,height=250,left=500,top=250'));
   } else {
