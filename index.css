@@ -1,9 +1,12 @@
 #randomQ {
     font-family: 'Nothing You Could Do', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
     font-size: xx-large;
-    width: 80%;
+    width: 70%;
     padding: 5%;
-    margin: 5%;
+    margin: 10%;
+      
+    
 }
 
 #newQuote {
@@ -25,6 +28,8 @@
 
 footer {
     font-family: 'Nothing You Could Do', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
     padding: 5%;
     margin: 5%;
+
 }
