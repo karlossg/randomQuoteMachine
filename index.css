@@ -26,6 +26,21 @@
     cursor: pointer;
 }
 
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn .7s ease-in 1 forwards;
+}
+
+.is-paused {
+  animation-play-state: paused;
+}
+
 footer {
     font-family: 'Nothing You Could Do', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
