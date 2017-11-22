@@ -1,35 +1,31 @@
-#randomQ {
+.box {
     font-family: 'Nothing You Could Do', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: xx-large;
     width: 70%;
-    padding: 5%;
-    margin: 10%;
-      
-    
+    padding: 1%;
 }
 
-#newQuote {
+.newQuote {
     margin-right: 2%;
     margin-top: 1%;
 }
 
-#newQuote:hover {
+.newQuote:hover {
     cursor: pointer;
 }
 
-#tweetQuote {
+.tweetQuote {
     margin-top: 1%;
 }
 
-#tweetQuote:hover {
+.tweetQuote:hover {
     cursor: pointer;
 }
 
 footer {
     font-family: 'Nothing You Could Do', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    padding: 5%;
-    margin: 5%;
+    
 
 }
