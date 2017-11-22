@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,22 +12,28 @@
 </head>
 
 <body>
-    
+    <main>
+        <header>
+            <h1>* Random quote machine *</h1>
+        </header>
         <div class="box">
-                <h2 class="quote"></h2>
-                <h3 class="author"></h3>
-            
-                <img class="newQuote" src="img/refresh.png" alt="refresh">
-                <a class="tweetQuote" target="popup">
-                <img src="img/bird-on-branch.png" alt="tweet">
-            </div>
+            <h2 class="quote"></h2>
+            <h3 class="author"></h3>
         </div>
+        <div>
+                <img class="trigger" src="img/refresh.png" alt="refresh">
+                <a target="popup" class="tweet"><img src="img/bird-on-branch.png" alt="tweet"></a>
+        </div>
+    </main>
+
+
         
     
     <footer class="footer">
         <p>Created by <a href="https://github.com/karlossg" target="_blank"> Karol Grabowski</a> | 2017</p>
     </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="app.js"></script>
 </body>
 
